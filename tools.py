@@ -31,7 +31,12 @@ from eztraink import tools as ts
 #the pre defined tools are as follows
 #CALCULATOR
 #to introduce the deterministic mathematical approach to places where neccessary sot hat the moddel never guesses a mathematical answer
-ts.calculator("2450*0.18)
+ts.calculator("2450*0.18")
+answer=ts.calculator("67/78")
+print(answer)
+
+
+              
 
 
 
